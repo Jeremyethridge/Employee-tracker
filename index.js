@@ -106,7 +106,7 @@ const updateRole = async () => {
 const addDepartment = async () => {
   try {
     const dept = await inquirer.prompt({
-      name: "departmentAdded",
+      name: "deptAdded",
       type: "input",
       message: "Name of the department:",
       validate: (name) => {
