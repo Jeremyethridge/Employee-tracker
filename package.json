@@ -1,17 +1,16 @@
 {
-  "name": "main",
+  "name": "module-12-challenge",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.17.1",
+    "inquirer": "^8.0.0",
     "mysql2": "^2.2.5"
   }
 }
